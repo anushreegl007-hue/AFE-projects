@@ -1,1 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
 
+body{
+    background:#f2f2f2;
+}
+
+/* NAV */
+nav{
+    background:#111827;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:15px 30px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* HEADER */
+header{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+/* SECTION */
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.card{
+    background:#e5e7eb;
+    padding:10px;
+    margin-top:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#111827;
+    color:white;
+}
